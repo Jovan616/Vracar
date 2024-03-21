@@ -1,0 +1,12 @@
+#include <stdio.h>
+main()
+{
+  float number;
+  // Poruka korisniku
+  printf("Unesite realan broj: ");
+  // Unos realnog broja
+  scanf("%f",&number);
+  // Ispis realnog broja zaokruzenog na 2 decimale
+  printf("Broj zaokruzen na dve decimale je : %.2f
+", number);
+}
